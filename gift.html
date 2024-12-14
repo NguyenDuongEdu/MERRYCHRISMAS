@@ -65,7 +65,7 @@
     <script>
         setTimeout(() => {
             window.location.href = "End/html3.html"; // Replace with your target HTML file
-        }, 7000); // 30 seconds
+        }, 5000); // 30 seconds
     </script>
 </head>
 <body>
@@ -159,7 +159,7 @@
             document.body.appendChild(popup);
         }
 
-        function createWindowsWithDelay(delay = 1) {
+        function createWindowsWithDelay(delay = 50) {
             createPopup();
             setTimeout(() => createWindowsWithDelay(delay), delay);
         }
